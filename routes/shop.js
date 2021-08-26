@@ -20,6 +20,6 @@ router.post('/cart-delete-item', shopsController.postCartDeleteProduct);
 
 router.get('/orders', shopsController.getOrders);
 
-router.get('checkout', shopsController.getCheckout);
+router.get('/checkout', shopsController.getCheckout);
 
 module.exports = router;
